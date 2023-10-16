@@ -51,6 +51,13 @@ digit_as_string_exception = (
     {"digits": [1], "base": 0, "expected": ""},
     {"digits": [1], "base": 17, "expected": ""},
     {"digits": [17, 0, 1], "base": 16, "expected": ""},
+    {"digits": [17, 0, 1], "base": 16, "expected": ""},
+    {"digits": [17, 0, 1], "base": 16, "expected": ""},
+    {"digits": [17, 0, 1], "base": 16, "expected": ""},
+    {"digits": [17, 0, 1], "base": 16, "expected": ""},
+    {"digits": [17, 0, 1], "base": 16, "expected": ""},
+    {"digits": [17, 0, 1], "base": 16, "expected": ""},
+    {"digits": [17, 0, 1], "base": 16, "expected": ""},
 )
 
 
