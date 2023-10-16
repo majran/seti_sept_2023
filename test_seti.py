@@ -36,7 +36,7 @@ any_to_any_base = (
 )
 
 digit_as_string = (
-    {"digits": [0], "base": 2, "expected": "1"},
+    {"digits": [0], "base": 5, "expected": "1"},
     {"digits": [0], "base": 2, "expected": "0"},
     {"digits": [1], "base": 2, "expected": "1"},
     {"digits": [1, 0], "base": 2, "expected": "10"},
