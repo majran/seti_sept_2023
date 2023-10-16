@@ -36,14 +36,16 @@ any_to_any_base = (
 )
 
 digit_as_string = (
+    {"digits": [0], "base": 2, "expected": "1"},
     {"digits": [0], "base": 2, "expected": "0"},
     {"digits": [1], "base": 2, "expected": "1"},
+    {"digits": [1, 0], "base": 2, "expected": "10"},
     {"digits": [1, 0], "base": 2, "expected": "10"},
     {"digits": [10], "base": 16, "expected": "A"},
     {"digits": [1, 0], "base": 8, "expected": "10"},
     {"digits": [10, 11, 12, 13, 14, 15], "base": 16, "expected": "ABCDEF"},
     {"digits": [1, 2, 0, 10], "base": 16, "expected": "120A"},
-    {"digits": [1, 7, 7, 0, 15, 15, 0, 9, 13, 10, 12, 15, 3, 9], "base": 16, "expected": "1770FF09DACF39"},
+    {"digits": [1, 7, 7, 0, 15, 15, 0, 9, 13, 10, 12, 15, 3, 10], "base": 16, "expected": "1770FF09DACF3A"},
 )
 
 digit_as_string_exception = (
