@@ -45,7 +45,7 @@ digit_as_string = (
     {"digits": [1, 0], "base": 8, "expected": "10"},
     {"digits": [10, 11, 12, 13, 14, 15], "base": 16, "expected": "ABCDEF"},
     {"digits": [1, 2, 0, 10], "base": 16, "expected": "120A"},
-    {"digits": [1, 7, 7, 0, 15, 15, 0, 9, 13, 10, 12, 15, 3, 10], "base": 16, "expected": "1770FF09DACF39"},
+    {"digits": [1, 7, 7, 0, 15, 15, 0, 9, 13, 10, 12, 15, 3, 10], "base": 16, "expected": "1770FF09DACF3A"},
 )
 
 digit_as_string_exception = (
